@@ -13,6 +13,10 @@ public class mainSingleton {
         // anotherSingleton.nextState();
         // anotherSingleton.printState(); //Output: third state
         // theSingleton.printState(); //Output: third state
+
+        // git add . 
+        // git commit -m"noi dung commit"
+        // git push
     }
     
 }
