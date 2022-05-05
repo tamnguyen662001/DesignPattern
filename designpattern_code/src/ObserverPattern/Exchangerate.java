@@ -18,7 +18,7 @@ public class Exchangerate {
         }
     }
     
-    public void notifyTiGia(float delta){
+    public void notifyExchangerate(float delta){
         for(I_TrackingExchangerate a: observers){
             a.updateExchangerate(delta);
         }
