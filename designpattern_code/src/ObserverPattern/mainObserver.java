@@ -7,10 +7,11 @@ public class mainObserver {
         BusinessmanA DTA = new BusinessmanA(t);
         BusinessmanB DTB = new BusinessmanB(t);
         System.out.println("Time 1: ");
-        t.notifyTiGia(5);
+        t.notifyExchangerate(5);
         System.out.println("=======================");
         DTA.cancel();
+        DTB.updateExchangerate(-29);
         System.out.println("Time 2: ");
-        t.notifyTiGia(19);
+        t.notifyExchangerate(19);
     }
 }
