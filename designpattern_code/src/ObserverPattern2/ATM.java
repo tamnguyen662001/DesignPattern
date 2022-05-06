@@ -1,6 +1,6 @@
 package ObserverPattern2;
 
-import java.util.concurrent.atomic.AtomicInteger;
+
 
 public class ATM {
     private I_AccountATM accountATM;
