@@ -12,7 +12,7 @@ public class MemberA implements I_Topic {
     
     @Override
     public void updateTopic(String updateTopic) {
-       System.out.println(name + " : "+ t.content);
+       System.out.println(name);
     }
 
 

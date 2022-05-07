@@ -2,7 +2,7 @@ package ChainOfRepos;
 
 public class RankingMax implements Iranking {
     String label;
-    float max;
+    float max ;
 
     public RankingMax(String label, float max) {
         this.label = label;

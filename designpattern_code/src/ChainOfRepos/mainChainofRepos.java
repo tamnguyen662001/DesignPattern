@@ -15,8 +15,8 @@ public class mainChainofRepos {
         System.out.println("Mark : 9.8 --- Ranking : " + A.Ranking((float)9.8));
         System.out.println("Mark : 5.6 --- Ranking : " + A.Ranking((float)5.6));
         System.out.println("Mark : 8.9 --- Ranking : " + A.Ranking((float)8.9));
-        System.out.println("Mark : 1.3 --- Ranking : " + A.Ranking((float)1.8));
+        System.out.println("Mark : 1.8 --- Ranking : " + A.Ranking((float)1.8));
 
-        
+        System.out.println("Mark : 11.8 --- Ranking : " + A.Ranking((float)11.8));
     }
 }
