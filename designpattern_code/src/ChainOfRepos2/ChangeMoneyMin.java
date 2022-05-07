@@ -14,6 +14,7 @@ public class ChangeMoneyMin implements IChangeMoney {
 
     @Override
     public int Change(int money) {
+       
 
         if (money >= min) {
             count = money / min;
@@ -23,13 +24,8 @@ public class ChangeMoneyMin implements IChangeMoney {
                 return successor.Change(money);
             }
             return count;
-        } else {
-
-            if (successor != null)
-                return successor.Change(money);
-            else
-                return count;
-        }
+        } else
+            return successor.Change(money);
 
     }
 
