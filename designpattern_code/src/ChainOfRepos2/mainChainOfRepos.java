@@ -13,7 +13,7 @@ public class mainChainOfRepos {
         IChangeMoney mot = new ChangeMoneyMin("Menh gia 1",1) ;
 
             
-        
+          
 
         namtram.setSuccessor(haitram)
                 .setSuccessor(mottram).setSuccessor(namchuc)
@@ -21,7 +21,9 @@ public class mainChainOfRepos {
                 .setSuccessor(nam).setSuccessor(hai).setSuccessor(mot);
 
         
-        System.out.println( namtram.Change(777));
+        System.out.println( namtram.Change(300));
+        System.out.println("===================================");
+        System.out.println( namtram.Change(1283));
         
 
     }

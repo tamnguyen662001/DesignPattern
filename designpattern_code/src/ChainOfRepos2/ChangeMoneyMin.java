@@ -19,7 +19,8 @@ public class ChangeMoneyMin implements IChangeMoney {
         if (money >= min) {
             count = money / min;
             money = money - min * count;
-            System.out.println(this.label + " : " + count);
+           
+           System.out.println(this.label + " : " + count);
             if (money > 0) {
                 return successor.Change(money);
             }
