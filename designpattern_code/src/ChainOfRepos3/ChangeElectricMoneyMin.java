@@ -5,7 +5,7 @@ public class ChangeElectricMoneyMin implements IChangeElectricMoney {
     String label;
     int min;
     int count;
-    float total;
+    float total = 0;
     double price;
     
 
@@ -23,10 +23,11 @@ public class ChangeElectricMoneyMin implements IChangeElectricMoney {
 
         if (money >= min) {
             count = money - min;
-            total =  (float) ((float)count * this.price);
+            total +=  (float) ((float)this.min * this.price);
             
-           
+           System.out.println(count);
            System.out.println(this.label + " : " + count);
+           System.out.println(total);
             if (money > 0) {
                 return successor.Change(money);
             }
