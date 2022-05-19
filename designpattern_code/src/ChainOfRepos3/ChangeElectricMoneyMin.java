@@ -36,7 +36,7 @@ public class ChangeElectricMoneyMin implements IChangeElectricMoney {
             return successor.Change(money);
 
     }
-
+// ,mau thiêt ke
     @Override
     public IChangeElectricMoney setSuccessor(IChangeElectricMoney money) {
 
