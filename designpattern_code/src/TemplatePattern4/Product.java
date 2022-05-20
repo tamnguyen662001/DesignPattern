@@ -1,4 +1,4 @@
-package TemplatePattern3;
+package TemplatePattern4;
 
 public class Product {
     String name;
@@ -16,6 +16,4 @@ public class Product {
        
         return "Product : Name : " + name + ", Quantity : " + quantity + ", Price : " + price ;
     }
-
-    
 }

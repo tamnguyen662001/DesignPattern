@@ -1,11 +1,11 @@
-package TemplatePattern3;
+package TemplatePattern4;
 
 public class mainTemplate {
     public static void main(String[] args) {
-        OnlineCart Cart1 = new OnlineCart();
+        Cart Cart1 = new OnlineCart();
         Cart1.getCart().add(new Product("Nokia X5", 2, 100000));
         Cart1.getCart().add(new Product("Samsung S22 Ultra", 1, 200000));
-
+        
         CODCart Cart2 = new CODCart();
         Cart2.getCart().add(new Product("Nokia X5", 2, 100000));
         Cart2.getCart().add(new Product("Samsung S22 Ultra", 1, 200000));
