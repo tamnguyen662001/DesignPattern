@@ -21,7 +21,7 @@ public class mainComposite {
 }
 
 
-/*Composite là một mẫu thiết kế thuộc nhóm cấu trúc, cho phép thực hiện các tương tác với tất cả đối tượng trong mẫu tương tự nhau.
+/*Composite là một mẫu thiết kế thuộc nhóm cấu trúc, cho  các tương tác với tất cả đối tượng trong mẫu tương tự nhau.
 Một đối tượng Composite được tạo thành từ một hay nhiều đối tượng tương tự nhau (hoặc có một số chức năng tương tự nhau).
 Ý tưởng ở đây là có thể thao tác trên một nhóm đối tượng theo cách như thao tác trên một đối tượng duy nhất, các đối tượng của nhóm phải có các thao tác chung (method chung).
 Composite có thể được gọi là “Đối tượng đa hợp”.
